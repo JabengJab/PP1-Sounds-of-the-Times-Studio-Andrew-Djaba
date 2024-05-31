@@ -130,3 +130,29 @@ footer {
     margin-top: 225px;
   }
 }
+
+  /* Large devices (laptops and desktops, 992px and up) */
+  @media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #d19178;
+    }
+
+    /* Main content*/
+    main {
+        /* Push main content down to accomodate header */
+        margin-top: 150px;
+      }
+  }
+
+  /* Large devices (laptops and desktops, 1440px and up) */
+  @media screen and (min-width: 1440px) {
+    #menu a:hover{
+        border-bottom: 1px solid #d19178;
+    }
+
+    /* Main content*/
+    main {
+        /* Push main content down to accomodate header */
+        margin-top: 75px;
+      }
+  }
