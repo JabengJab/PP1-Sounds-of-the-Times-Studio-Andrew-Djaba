@@ -22,10 +22,18 @@ body {
 /* Header */
 header {
     background-color: #4e1e1e;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #d19178;
+
+    
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
+    color: aliceblue;
 }
 
 /* Main body */
