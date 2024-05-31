@@ -38,7 +38,21 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: #ffd6b6;
+}
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+    list-style-type: none;
     color: aliceblue;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+.active {
+    border-bottom: 1px solid aliceblue;
 }
 
 /* Main body */
