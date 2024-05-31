@@ -27,12 +27,17 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #d19178;
+}
 
-    
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     color: aliceblue;
 }
 
