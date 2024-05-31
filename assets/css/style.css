@@ -24,6 +24,10 @@ header {
     background-color: #4e1e1e;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Main body */
 main { 
     background-color: aliceblue ;
