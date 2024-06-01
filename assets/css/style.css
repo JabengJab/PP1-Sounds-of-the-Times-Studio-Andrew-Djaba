@@ -85,11 +85,17 @@ nav {
     font-size: 2rem;
 }
 /* Main body */
-main { 
-    background-color: aliceblue ;
+main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 97px;
+}
+
+/* Hero Section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/Picture1.jpg) no-repeat center center/cover
 }
 
 /* Footer */
