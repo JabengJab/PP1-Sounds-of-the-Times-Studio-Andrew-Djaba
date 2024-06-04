@@ -99,7 +99,7 @@ main {
 
 /* Hero Section */
 #hero {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url(../images/Picture1.jpg) no-repeat center center/cover;
     position: relative;
@@ -155,6 +155,8 @@ main {
     justify-content: center;
 }
 
+
+
 /* Media */
 #music {
     background-image: url(https://i.pinimg.com/736x/9c/4e/90/9c4e908c017159c3d0b13b153937d1d2.jpg);
@@ -163,8 +165,14 @@ main {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
     color: #ffd6b6;
+    
 }
 
+#describe {
+    text-align: center;
+    font-size: large;
+    color: #4e1e1e;
+}
 
 
 
@@ -327,6 +335,12 @@ main {
       }
   }
 
+  /* Large devices (laptops and desktops, 1024px and up) */
+  @media screen and (min-width: 1024px) {
+    #menu a:hover{
+        border-bottom: 1px solid #d19178;
+    }
+}
 
   /* Large devices (laptops and desktops, 1440px and up) */
   @media screen and (min-width: 1440px) {
