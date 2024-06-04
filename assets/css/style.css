@@ -92,6 +92,9 @@ main {
     flex: 1 0 auto;
     margin-top: 97px;
     background-color: #ffd6b6;
+    /* Enable fles properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero Section */
@@ -163,6 +166,51 @@ main {
     line-height: 0;
 }
 
+/* Form */
+#contact-us {
+    background-image: url(https://images.pexels.com/photos/7586662/pexels-photo-7586662.jpeg?cs=srgb&dl=pexels-cristian-rojas-7586662.jpg&fm=jpg);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contact-us-form {
+    color: aliceblue;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#contact-us-form > h2 {
+    color: #ffd6b6;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background-color: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
 
 /* Footer */
 #social-networks {
