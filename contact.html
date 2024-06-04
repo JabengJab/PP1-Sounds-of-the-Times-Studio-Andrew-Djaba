@@ -28,7 +28,7 @@
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">x</label>
-             <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-bars"></i>
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
@@ -46,26 +46,36 @@
             <form id="contact-us-form" method="POST" action="https://formdump.codeinstitute.net">
                 <h2><i class=""></i>Contact us for bookings or any information!</h2>
                 <label for="first-name">First Name</label>
-                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <input type="text" name="first_name" id="first-name" class="text-input" placeholder="Max" required>
                 <br>
                 <label for="last-name">Last Name</label>
-                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <input type="text" name="last_name" id="last-name" class="text-input" placeholder="Smith" required>
                 <br>
                 <label for="email-address">Email Address</label>
-                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <input type="email" name="email_address" id="email-address" class="text-input"
+                    placeholder="example@gmail.com" required>
                 <br>
                 <div class="radio-buttons">
                     <br>
-                    <h2>Want to join our Newsletter!</h2>
+                    <h2>Want to join our Newsletter?</h2>
                     <div>
+                        <label for="options"></label>
+
                         <label for="yes">Yes</label>
-                        <input type="radio" name="yes_radio" id="yes" value="yes">
+                        <input type="radio" name="options" id="yes" value="yes">
+                        <label for="no">No</label>
+                        <input type="radio" name="options" id="no" value="no">
                     </div>
-                    
-                <button type="submit" class="join-button">Submit</button>
-                <button type="reset" class="join-button">Reset</button>
+
+
             </form>
+            <div>
+                <button type="submit" class="join-button">Submit</button>
+
+            </div>
+
         </section>
+
     </main>
 
     <!-- Footer -->
@@ -75,10 +85,12 @@
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li><a href="https://www.twitter.com/" target="blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i
+                        class="fa-brands fa-square-twitter"></i></a>
             </li>
             <li><a href="https://www.instagram.com/" target="blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
             <li><a href="https://www.youtube.com/" target="blank" rel="noopener"
                     aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
