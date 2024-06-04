@@ -85,6 +85,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main body */
 main {
     /* Make main element take up any surplus space to push footer down */
@@ -128,7 +129,7 @@ main {
 
 #about-us h2 {
     margin-bottom: 20px;
-    font-size: 240%;
+    font-size: 190%;
     color: #4e1e1e;
     
 }
