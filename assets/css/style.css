@@ -156,13 +156,17 @@ main {
 }
 
 /* Media */
-#media {
+#music {
     background-image: url(https://i.pinimg.com/736x/9c/4e/90/9c4e908c017159c3d0b13b153937d1d2.jpg);
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    color: #ffd6b6;
 }
+
+
+
 
 
 /* Gallery page*/
