@@ -204,13 +204,22 @@ main {
     /* Push main content down to accomodate header */
     margin-top: 225px;
   }
-}
 
-/* Hero */
+  /* Hero */
 #cover-text {
     width: 300px;
     
 }
+
+  /* About us section */
+  #about-us-image {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+
 
   /* Large devices (laptops and desktops, 992px and up) */
   @media screen and (min-width: 992px) {
@@ -224,6 +233,7 @@ main {
         margin-top: 150px;
       }
   }
+
 
   /* Large devices (laptops and desktops, 1440px and up) */
   @media screen and (min-width: 1440px) {
