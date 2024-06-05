@@ -14,7 +14,11 @@ This section will allow the user to easily navigate from page to page across all
 
 The Home page has two sections, the Home page image and the About Us section. This is an image with text overlay to allow the user to see exactly which location this site would be applicable to. 
 
-The image also shows a quick preview of the Heritage analog sound mixer which is our most priced mixer and a world legend in the mixer world, and other equipents in the background.
+The Home page image shows a quick preview of the Heritage analog sound mixer which is our most priced mixer and a world legend in the mixer world, and other equipents in the background.
+
+![Screenshot of Home Page](Homepage.PNG)
+
+
 
 
 
