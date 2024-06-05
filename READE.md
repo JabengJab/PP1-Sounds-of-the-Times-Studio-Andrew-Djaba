@@ -21,14 +21,43 @@ The Home page image shows a quick preview of the Heritage analog sound mixer whi
 
 #### About Us
 
-This section tells the reader about the Sounds of the Times Studio, what we do and experiences we have gathered so far. This should encourage the user to decide if they would like to use our services. 
+This section tells the user about the Sounds of the Times Studio, what we do and experiences we have gathered so far. This should encourage the user to decide if they would like to use our services. 
 
 It also features a photo of a sound technician micing a drum set.
 
 ![Screenshot of About Us on Home page](<About us.PNG>)
 
 
+#### The Footer
+
+The footer section includes links to the relevant social media sites for Sounds of the Times Studio. The links will open to a new tab to allow easy navigation for the user.
+
+The footer is valuable to the user as it encourages them to keep connected via social media
+
+![Screenshot of Footer](footer.PNG)
 
 
+### Media
+
+The media will provide the user with supporting music to hear what our final mixes sound like.This section is valuable to the user as they will be able to hear the genres of music we produce.
+
+The background has an image of a mixer with two microphones connoting to recording and mixing.
+
+![Screenshot of Media page](Media.PNG)
 
 
+### Gallery
+
+The gallery will provide the user with supporting images to see how the recording studios look like.
+
+This section is valuable to the user as they will be able to easily identify the types of equipments the studio has.
+
+![Screenshot of Gallery](Gellery.PNG)
+![Screenshot of Gallery2](Gallery2.PNG)
+
+
+### The Contact Page
+
+This page will allow the user to contact us for bookings or any other information they require. The user will be able specify if they would like to join our Newsletter or not. The user will be asked to submit their first and last names and email address.
+
+![Screenshot of Contact Page](Contact.PNG)
