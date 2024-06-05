@@ -101,7 +101,7 @@ main {
 #hero {
     height: 800px;
     width: 100%;
-    background: url(../images/Picture1.jpg) no-repeat center center/cover;
+    background: url(../images/background.jpg) no-repeat center center/cover;
     position: relative;
 }
 
@@ -138,7 +138,7 @@ main {
 }
 
 #circle-mic-bg {
-    background: url('../images/Picture3.JPG') no-repeat top center / cover;
+    background: url('../images/technician.JPG') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;

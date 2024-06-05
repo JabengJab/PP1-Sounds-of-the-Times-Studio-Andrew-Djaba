@@ -61,3 +61,12 @@ This section is valuable to the user as they will be able to easily identify the
 This page will allow the user to contact us for bookings or any other information they require. The user will be able specify if they would like to join our Newsletter or not. The user will be asked to submit their first and last names and email address.
 
 ![Screenshot of Contact Page](Contact.PNG)
+
+
+### Features Left to Implement
+
+In the future, a booking system will be added where the user would see a calendar with availables slots to book an appointment.
+
+
+## Testing
+
