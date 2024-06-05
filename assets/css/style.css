@@ -55,17 +55,19 @@ header a {
 }
 
 #menu, #logo{
-    line-height: 75px;
+    line-height: 45px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 25px;
+    align-items: baseline;
 }
 
 #menu>li {
     margin-bottom: 2em;
+
 }
 
 .active {
@@ -96,7 +98,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 /* Main body */
