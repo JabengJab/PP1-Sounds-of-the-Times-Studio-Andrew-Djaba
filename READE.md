@@ -19,6 +19,16 @@ The Home page image shows a quick preview of the Heritage analog sound mixer whi
 ![Screenshot of Home Page](Homepage.PNG)
 
 
+#### About Us
+
+This section tells the reader about the Sounds of the Times Studio, what we do and experiences we have gathered so far. This should encourage the user to decide if they would like to use our services. 
+
+It also features a photo of a sound technician micing a drum set.
+
+![Screenshot of About Us on Home page](<About us.PNG>)
+
+
+
 
 
 
