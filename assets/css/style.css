@@ -51,11 +51,10 @@ header a {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-    color: aliceblue;
+    color: #ffd6b6;
 }
 
-#menu,
-#logo {
+#menu, #logo {
     line-height: 45px;
 }
 
@@ -63,7 +62,6 @@ header a {
     float: right;
     list-style-type: none;
     margin-right: 25px;
-    align-items: baseline;
 }
 
 #menu>li {
@@ -71,8 +69,16 @@ header a {
 
 }
 
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1py slid #ffd6b6;
+}
+
 .active {
-    border-bottom: 1px solid aliceblue;
+    border-bottom: 1px solid #ffd6b6;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -274,7 +280,7 @@ main {
     /* Hero */
     #cover-text {
         width: 200px;
-        margin-top: 30px;
+        margin-top: 5px;
     }
 
     /* Media */
