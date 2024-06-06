@@ -74,7 +74,7 @@ header a {
 }
 
 #menu a:hover {
-    border-bottom: 1py slid #ffd6b6;
+    border-bottom: 1px slid #ffd6b6;
 }
 
 .active {
@@ -195,8 +195,6 @@ main {
     color: #4e1e1e;
 }
 
-
-
 /* Gallery page*/
 #photos img {
     width: 100%;
@@ -254,8 +252,6 @@ main {
     color: #fafafa;
 
 }
-
-
 
 /* Footer */
 #social-networks {
@@ -375,9 +371,7 @@ main {
     #describe {
         margin-top: 30px;
     }
-}
-
-   
+}  
 
 /* Large devices (laptops and desktops, 950px and up) */
 @media screen and (min-width: 950px) {
@@ -393,7 +387,6 @@ main {
         line-height: 25px;
         height: 1.5;
     }
-
 
     /* Gallery*/
     #photos {
