@@ -280,7 +280,7 @@ main {
     /* Hero */
     #cover-text {
         width: 200px;
-        margin-top: 5px;
+        margin-top: -30px;
     }
 
     /* Media */
@@ -312,7 +312,7 @@ main {
     /* Hero */
     #cover-text {
         width: 300px;
-        margin-top: 90px;
+        margin-top: 50px;
     }
 }
 
@@ -355,7 +355,7 @@ main {
     /* Hero */
     #cover-text {
         width: 300px;
-        margin-top: 50px;
+        margin-top: 5px;
     }
 
     /* About us section */
