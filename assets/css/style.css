@@ -54,7 +54,8 @@ header a {
     color: aliceblue;
 }
 
-#menu, #logo{
+#menu,
+#logo {
     line-height: 45px;
 }
 
@@ -98,7 +99,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /* Main body */
@@ -127,7 +128,7 @@ main {
     font-size: 130%;
     position: relative;
     bottom: 5px;
-    width: 80%;
+    width: 70%;
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
@@ -173,7 +174,7 @@ main {
 
 /* Media */
 #music {
-    background-image: url(https://i.pinimg.com/736x/9c/4e/90/9c4e908c017159c3d0b13b153937d1d2.jpg);
+    background-image: url(https://bit.ly/4e8y4UW);
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -187,6 +188,8 @@ main {
     font-size: large;
     color: #4e1e1e;
 }
+
+
 
 /* Gallery page*/
 #photos img {
@@ -205,7 +208,7 @@ main {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-    
+
 }
 
 #contact-us-form {
@@ -265,13 +268,45 @@ main {
     color: #d19178;
 }
 
+/* Media query: large or landscape phones (320px and up) */
+@media screen and (min-width: 320px) {
 
+    /* Hero */
+    #cover-text {
+        width: 200px;
+        margin-top: 30px;
+    }
 
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
+    /* Media */
+    #describe {
+        margin-top: 2px;
+    }
+}
+
+/* Media query: large or landscape phones (500px and up) */
+@media screen and (min-width: 500px) {
     #photos {
         column-count: 2;
         column-gap: 0;
+    }
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    /* Hero */
+    #cover-text {
+        width: 300px;
+        margin-top: 90px;
     }
 }
 
@@ -308,13 +343,13 @@ main {
     /* Main content*/
     main {
         /* Push main content down to accomodate header */
-        margin-top: 225px;
+        margin-top: 190px;
     }
 
     /* Hero */
     #cover-text {
         width: 300px;
-
+        margin-top: 50px;
     }
 
     /* About us section */
@@ -329,7 +364,14 @@ main {
         column-count: 3;
         column-gap: 0;
     }
+
+    /* Media */
+    #describe {
+        margin-top: 30px;
+    }
 }
+
+   
 
 /* Large devices (laptops and desktops, 950px and up) */
 @media screen and (min-width: 950px) {
@@ -344,8 +386,8 @@ main {
         margin-bottom: 20px;
         line-height: 25px;
         height: 1.5;
-    } 
-      
+    }
+
 
     /* Gallery*/
     #photos {
@@ -365,6 +407,10 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #d19178;
     }
+
+    #cover-text {
+        margin-top: 110px;
+    }
 }
 
 /* Large devices (laptops and desktops, 1440px and up) */
@@ -383,5 +429,9 @@ main {
     main {
         /* Push main content down to accomodate header */
         margin-top: 75px;
+    }
+
+    #cover-text {
+        margin-top: 10px;
     }
 }
